@@ -37,4 +37,4 @@ int cal_power(int a, int n){
   
 }
 
-// conclusion: the number of recursive calls = n + 1
+// conclusion: the number of recursive calls = n + 1 (linear relationship)

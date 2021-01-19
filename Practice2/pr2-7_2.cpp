@@ -38,4 +38,4 @@ int al_cal_power(int a, int n){
   
 }
 
-//
+// concusion: the number of recursive calls is logrithmically related to n.
