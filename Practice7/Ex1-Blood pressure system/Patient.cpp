@@ -17,12 +17,6 @@ void Patient::addRecord(Blood record){
     this -> entries.push_back(record); //use pushback to add in the end
 }
 
-//void Patient :: print (){
-//cout << "*****Patient: " << this -> name << "*****" << endl;
-//    for(int j=0;j<this -> entries.size();j++){
-//this -> entries[j].print (); }
-//}
-
 
 void Patient :: printReport(){
     vector<Blood> highestAbnormal =vector<Blood>();
@@ -53,6 +47,6 @@ for(int i=0;i< this ->entries.size();i++){
         cout << '\n';highestAbnormal[i].print ();
     }
     }
-    cout << "average diastolic pressure: " << avgDiastolic/entries.size() << endl; cout << "−−−−−−−−−−−−−−−−− " << endl;
+    cout << "average diastolic pressure: " << avgDiastolic/entries.size() << endl; 
 }
 
